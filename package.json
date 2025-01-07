@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "jquery": "^3.7.1"
+  },
+  "scripts": {
+    "build": "sass --quiet-deps src/scss/style.scss src/css/style.min.css",
+    "watch": "sass src/scss/style.scss src/css/style.min.css -w --style compressed"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0"
+  }
+}

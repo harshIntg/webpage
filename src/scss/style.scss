@@ -1,0 +1,13 @@
+@import "variable.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+::-webkit-scrollbar {
+  background-color: $dark;
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 10px;
+}
